@@ -1,0 +1,118 @@
+// Zombieman Spawn Tables
+// newSpawnTable => { "spawnName": "ZombieSemiStormtrooper", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "ZombieAutoStormtrooper", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "ZombieSMGStormtrooper", "addOriginalThing": "true", "persists": "true" }
+
+// Shotgunner Spawn Tables
+// newSpawnTable => { "spawnName": "UndeadJackbootman", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "JackAndJillboot", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "Jackboot", "addOriginalThing": "true", "persists": "true" }
+
+// Homeboy Spawn Table
+// newSpawnTable => { "spawnName": "UndeadHomeboy", "addOriginalThing": "true", "persists": "true" }
+
+// Chaingunner Spawn Table
+// newSpawnTable => { "spawnName": "VulcanetteZombie", "addOriginalThing": "true", "persists": "true" }
+
+// HERP Spawn Table
+// newSpawnTable => { "spawnName": "EnemyHERP", "addOriginalThing": "true", "persists": "true" }
+
+// Babuin Spawn Tables
+// newSpawnTable => { "spawnName": "Babuin", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "SpecBabuin", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "DeadBabuin", "addOriginalThing": "true", "persists": "true" }
+
+// Ninja Pirate Spawn Tables
+// newSpawnTable => { "spawnName": "NinjaPirate", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "DeadSpecBabuin", "addOriginalThing": "true", "persists": "true" }
+// newSpawnTable => { "spawnName": "DeadNinjaPirate", "addOriginalThing": "true", "persists": "true" }
+
+
+// Zombie Dog Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "DemonReplaces", "name": "ZombieDog", "weight": "#zombiedog_spawn_bias", "persists": "#zombiedog_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "Babuin", "name": "ZombieDog", "weight": "#zombiedog_spawn_bias", "persists": "#zombiedog_persistent_spawning" }
+
+// Dead Zombie Dog Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "DeadDemonReplaces", "name": "DeadZombieDog", "weight": "#zombiedog_spawn_bias", "persists": "#zombiedog_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "DeadBabuin", "name": "DeadZombieDog", "weight": "#zombiedog_spawn_bias", "persists": "#zombiedog_persistent_spawning" }
+
+// Cloaked Zombie Dog Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "SpectreReplaces", "name": "SpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "SpecBabuin", "name": "SpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "NinjaPirate", "name": "SpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
+
+// Dead Cloaked Zombie Dog Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "DeadDemon", "name": "DeadSpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloadked_zombiedog_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "DeadSpecBabuin", "name": "DeadSpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "DeadNinjaPirate", "name": "DeadSpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
+
+// Wither Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "DoomImpReplaces", "name": "Wither", "weight": "#wither_spawn_bias", "persists": "#wither_persistent_spawning" }
+
+// 10mm Rifleman Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "TenMilRifleman", "weight": "#tenmilrifl_zombieman_spawn_bias", "persists": "#tenmilrifl_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSemiStormtrooper", "name": "TenMilRifleman", "weight": "#tenmilrifl_zombieman_spawn_bias", "persists": "#tenmilrifl_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieAutoStormtrooper", "name": "TenMilRifleman", "weight": "#tenmilrifl_zombieman_spawn_bias", "persists": "#tenmilrifl_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSMGStormtrooper", "name": "TenMilRifleman", "weight": "#tenmilrifl_zombieman_spawn_bias", "persists": "#tenmilrifl_persistent_spawning" }
+
+// 10mm Pistol Zombie Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "TenMilHomeboy", "weight": "#tenmilpis_zombieman_spawn_bias", "persists": "#tenmilpis_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "TenMilHomeboy", "weight": "#tenmilpis_zombieman_spawn_bias", "persists": "#tenmilpis_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadHomeboy", "name": "TenMilHomeboy", "weight": "#tenmilpis_zombieman_spawn_bias", "persists": "#tenmilpis_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSemiStormtrooper", "name": "TenMilHomeboy", "weight": "#tenmilpis_zombieman_spawn_bias", "persists": "#tenmilpis_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadJackbootman", "name": "TenMilHomeboy", "weight": "#tenmilpis_zombieman_spawn_bias", "persists": "#tenmilpis_persistent_spawning" }
+
+// Sig-cow Bayonet Rifleman Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "BayonetRifleman", "weight": "#bayonetta_zombieman_spawn_bias", "persists": "#bayonetta_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSemiStormtrooper", "name": "BayonetRifleman", "weight": "#bayonetta_zombieman_spawn_bias", "persists": "#bayonetta_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieAutoStormtrooper", "name": "BayonetRifleman", "weight": "#bayonetta_zombieman_spawn_bias", "persists": "#bayonetta_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSMGStormtrooper", "name": "BayonetRifleman", "weight": "#bayonetta_zombieman_spawn_bias", "persists": "#bayonetta_persistent_spawning" }
+
+// Sten Zombie Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "StenZombieSpawner", "weight": "#stengunner_zombieman_spawn_bias", "persists": "#stengunner_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSemiStormtrooper", "name": "StenZombieSpawner", "weight": "#stengunner_zombieman_spawn_bias", "persists": "#stengunner_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieAutoStormtrooper", "name": "StenZombieSpawner", "weight": "#stengunner_zombieman_spawn_bias", "persists": "#stengunner_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSMGStormtrooper", "name": "StenZombieSpawner", "weight": "#stengunner_zombieman_spawn_bias", "persists": "#stengunner_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "WolfensteinSSReplaces", "name": "StenZombieSpawner", "weight": "#stengunner_ss_spawn_bias", "persists": "#stengunner_persistent_spawning" }
+
+// Melee Zombiemen Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_zombieman_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_jackboot_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ChaingunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_chaingunner_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadHomeboy", "name": "MeleeZombieSpawner", "weight": "#meleezomb_homeboy_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSemiStormtrooper", "name": "MeleeZombieSpawner", "weight": "#meleezomb_zombieman_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieAutoStormtrooper", "name": "MeleeZombieSpawner", "weight": "#meleezomb_zombieman_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "ZombieSMGStormtrooper", "name": "MeleeZombieSpawner", "weight": "#meleezomb_zombieman_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "Jackboot", "name": "MeleeZombieSpawner", "weight": "#meleezomb_jackboot_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "JackAndJillboot", "name": "MeleeZombieSpawner", "weight": "#meleezomb_jackboot_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadJackbootman", "name": "MeleeZombieSpawner", "weight": "#meleezomb_jackboot_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "VulcanetteZombie", "name": "MeleeZombieSpawner", "weight": "#meleezomb_chaingunner_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+
+// Brawler Jackboot Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "BrawlerJackboot", "weight": "#brawler_jackboot_spawn_bias", "persists": "#brawler_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "Jackboot", "name": "BrawlerJackboot", "weight": "#brawler_jackboot_spawn_bias", "persists": "#brawler_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "JackAndJillboot", "name": "BrawlerJackboot", "weight": "#brawler_jackboot_spawn_bias", "persists": "#brawler_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadJackbootman", "name": "BrawlerJackboot", "weight": "#brawler_jackboot_spawn_bias", "persists": "#brawler_persistent_spawning" }
+
+// Combat Shotgunner Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "CombatJackboot", "weight": "#combshot_jackboot_spawn_bias", "persists": "#combshot_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "Jackboot", "name": "CombatJackboot", "weight": "#combshot_jackboot_spawn_bias", "persists": "#combshot_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "JackAndJillboot", "name": "CombatJackboot", "weight": "#combshot_jackboot_spawn_bias", "persists": "#combshot_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadJackbootman", "name": "CombatJackboot", "weight": "#combshot_jackboot_spawn_bias", "persists": "#combshot_persistent_spawning" }
+
+// Doomed Jackboot Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "DoomedJackboot", "weight": "#doomjack_jackboot_spawn_bias", "persists": "#doomjack_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "Jackboot", "name": "DoomedJackboot", "weight": "#doomjack_jackboot_spawn_bias", "persists": "#doomjack_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "JackAndJillboot", "name": "DoomedJackboot", "weight": "#doomjack_jackboot_spawn_bias", "persists": "#doomjack_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadJackbootman", "name": "DoomedJackboot", "weight": "#doomjack_jackboot_spawn_bias", "persists": "#doomjack_persistent_spawning" }
+
+// Riot Police Zombie Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "RiotCopZombie", "weight": "#riot_jackboot_spawn_bias", "persists": "#riot_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "Jackboot", "name": "RiotCopZombie", "weight": "#riot_jackboot_spawn_bias", "persists": "#riot_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "JackAndJillboot", "name": "RiotCopZombie", "weight": "#riot_jackboot_spawn_bias", "persists": "#riot_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "UndeadJackbootman", "name": "RiotCopZombie", "weight": "#riot_jackboot_spawn_bias", "persists": "#riot_persistent_spawning" }
+
+// Minerva Chaingunner
+addSpawnTableSingleEntry => { "tableName": "ChaingunGuyReplaces", "name": "MinervaZombie", "weight": "#minervazomb_chaingunner_spawn_bias", "persists": "#minervazomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "VulcanetteZombie", "name": "MinervaZombie", "weight": "#minervazomb_chaingunner_spawn_bias", "persists": "#minervazomb_persistent_spawning" }
+// addSpawnTableSingleEntry => { "tableName": "EnemyHERP", "name": "MinervaZombie", "weight": "#minervazomb_herp_spawn_bias", "persists": "#minervazomb_persistent_spawning" }

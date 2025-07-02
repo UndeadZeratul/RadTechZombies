@@ -32,6 +32,3 @@ version "4.10"
 
 //Wither, weak skeleton imp that's too angry to die
 #include "zscript/Wither/mob_wither.zs"
-
-//RadTech Zombie Spawner event handler
-#include "zscript/RadTechZombie_Spawners.zs"

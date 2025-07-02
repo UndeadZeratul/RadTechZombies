@@ -42,7 +42,7 @@ addSpawnTableSingleEntry => { "tableName": "SpectreReplaces", "name": "SpecZombi
 // addSpawnTableSingleEntry => { "tableName": "NinjaPirate", "name": "SpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
 
 // Dead Cloaked Zombie Dog Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "DeadDemon", "name": "DeadSpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloadked_zombiedog_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "DeadDemonReplaces", "name": "DeadSpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloadked_zombiedog_persistent_spawning" }
 // addSpawnTableSingleEntry => { "tableName": "DeadSpecBabuin", "name": "DeadSpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
 // addSpawnTableSingleEntry => { "tableName": "DeadNinjaPirate", "name": "DeadSpecZombieDog", "weight": "#cloaked_zombiedog_spawn_bias", "persists": "#cloaked_zombiedog_persistent_spawning" }
 

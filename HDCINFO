@@ -44,8 +44,14 @@ addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "Doomed
 // Riot Police Zombie Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "RiotCopZombie", "weight": "#riot_jackboot_spawn_bias", "persists": "#riot_persistent_spawning" }
 
-// Minerva Chaingunner
+// Minerva Chaingunner Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "ChaingunGuyReplaces", "name": "MinervaZombie", "weight": "#minervazomb_chaingunner_spawn_bias", "persists": "#minervazomb_persistent_spawning" }
+
+// Withered Summoner Spawn Entries
+addSpawnTableSingleEntry => { "tableName": "WitheredSummonSpawner", "name": "BayonetRifleman", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "WitheredSummonSpawner", "name": "BrawlerJackboot", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "WitheredSummonSpawner", "name": "MeleeZombie", "persists": "true" }
+
 
 // Bounty Targets
 newMerchantBountyTarget => { "name": "Wither", "value": "100" }

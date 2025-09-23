@@ -24,13 +24,27 @@ addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "TenMil
 addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "BayonetRifleman", "weight": "#bayonetta_zombieman_spawn_bias", "persists": "#bayonetta_persistent_spawning" }
 
 // Sten Zombie Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "StenZombieSpawner", "weight": "#stengunner_zombieman_spawn_bias", "persists": "#stengunner_persistent_spawning" }
-addSpawnTableSingleEntry => { "tableName": "WolfensteinSSReplaces", "name": "StenZombieSpawner", "weight": "#stengunner_ss_spawn_bias", "persists": "#stengunner_persistent_spawning" }
+newSpawnTable => { "spawnName": "StenZombieSpawner", "tableName": "StenZombieSpawner" }
+addSpawnTableSingleEntry => { "tableName": "StenZombieSpawner", "name": "StenZombie", "weight": "1", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "StenZombieSpawner", "name": "StenZombie_Black", "weight": "1", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "StenZombieSpawner", "name": "StenZombie_Red", "weight": "1", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "StenZombieSpawner", "name": "StenZombie_Brown", "weight": "1", "persists": "true" }
+
+addSpawnTableNestedEntry => { "tableName": "ZombieManReplaces", "name": "StenZombieSpawner", "weight": "#stengunner_zombieman_spawn_bias", "persists": "#stengunner_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "WolfensteinSSReplaces", "name": "StenZombieSpawner", "weight": "#stengunner_ss_spawn_bias", "persists": "#stengunner_persistent_spawning" }
 
 // Melee Zombiemen Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_zombieman_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
-addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_jackboot_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
-addSpawnTableSingleEntry => { "tableName": "ChaingunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_chaingunner_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+newSpawnTable => { "spawnName": "MeleeZombieSpawner", "tableName": "MeleeZombieSpawner" }
+addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie", "weight": "10", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie_Red", "weight": "8", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie_Orange", "weight": "6", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie_Yellow", "weight": "4", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie_Blue", "weight": "2", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie_Pink", "weight": "1", "persists": "true" }
+
+addSpawnTableNestedEntry => { "tableName": "ZombieManReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_zombieman_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ShotgunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_jackboot_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ChaingunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_chaingunner_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
 
 // Brawler Jackboot Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "BrawlerJackboot", "weight": "#brawler_jackboot_spawn_bias", "persists": "#brawler_persistent_spawning" }
@@ -50,7 +64,7 @@ addSpawnTableSingleEntry => { "tableName": "ChaingunGuyReplaces", "name": "Miner
 // Withered Summoner Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "WitheredSummonSpawner", "name": "BayonetRifleman", "persists": "true" }
 addSpawnTableSingleEntry => { "tableName": "WitheredSummonSpawner", "name": "BrawlerJackboot", "persists": "true" }
-addSpawnTableSingleEntry => { "tableName": "WitheredSummonSpawner", "name": "MeleeZombie", "persists": "true" }
+addSpawnTableNestedEntry => { "tableName": "WitheredSummonSpawner", "name": "MeleeZombieSpawner", "persists": "true" }
 
 
 // Bounty Targets

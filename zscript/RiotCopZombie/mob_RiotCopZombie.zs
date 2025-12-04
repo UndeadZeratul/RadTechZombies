@@ -13,7 +13,7 @@ class RiotCopZombie:HDHumanoid{
 		//$Title "Riot Cop Shotgun Zombie"
 		//$Sprite "RCOPA1"
 
-    +ambush
+		+ambush
 
 		seesound "lesslethalcop/sight";
 		painsound "lesslethalcop/pain";
@@ -29,7 +29,7 @@ class RiotCopZombie:HDHumanoid{
 		painchance 200;
 		accuracy 1;
 		
-		translation "112:116=194:196";
+		translation "227:231=194:198","113:126=[92,92,92]:[0,0,0]";
 
 		obituary "%o thought less-lethal meant non-lethal.";
 		hitobituary "%o was a victim of police brutality.";

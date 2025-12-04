@@ -2,7 +2,7 @@ class CombatJackboot:HDHumanoid{
 	default{
 		//$Category "Monsters/Hideous Destructor"
 		//$Title "Combat Shotgun Guy"
-		//$Sprite "PLAYA1"
+		//$Sprite "RCOPA1"
 
     +ambush
 
@@ -20,7 +20,7 @@ class CombatJackboot:HDHumanoid{
 		painchance 200;
 		accuracy 1;
 		
-		translation "112:116=160:162";
+		translation "113:126=[92,92,92]:[0,0,0]";
 
 		obituary "%o felt the long-arm of the law.";
 		hitobituary "%o fought the law, and the law won.";

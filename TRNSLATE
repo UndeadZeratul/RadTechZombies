@@ -1,9 +1,3 @@
-RiotCopZombie=
-"112:127=%[0,0,0]:[0.15,0.1,0.4]",//blue saturation
-"48:79=66:79",
-"18:21=68:68",
-"213:213=66:66"
-
 TenMilZombie=
 "128:143=152:159",//khaki to green translation
 "144:151=153:159",

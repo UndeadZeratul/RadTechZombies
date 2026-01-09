@@ -294,7 +294,7 @@ class RadtechZombiesHandler : EventHandler {
     private void handleEnemyReplacements(ReplaceEvent e, string candidateName) {
 
         // Checks if the level has been loaded more than 1 tic.
-        bool prespawn = !(level.maptime > 1);
+        bool prespawn = HDCore.isPreSpawn();
 
         // Iterates through the list of Enemy candidates for e.thing.
         foreach (enemySpawn : enemySpawnList) {
@@ -314,7 +314,7 @@ class RadtechZombiesHandler : EventHandler {
     private void handleEnemySpawns(Actor thing, string candidateName) {
 
         // Checks if the level has been loaded more than 1 tic.
-        bool prespawn = !(level.maptime > 1);
+        bool prespawn = HDCore.isPreSpawn();
 
         // Iterates through the list of Enemy candidates for e.thing.
         foreach (enemySpawn : enemySpawnList) {

@@ -22,6 +22,7 @@ addSpawnTableSingleEntry => { "tableName": "ShotgunGuyReplaces", "name": "TenMil
 
 // Sig-cow Bayonet Rifleman Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "ZombieManReplaces", "name": "BayonetRifleman", "weight": "#bayonetta_zombieman_spawn_bias", "persists": "#bayonetta_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "WolfensteinSSReplaces", "name": "BayonetRifleman", "weight": "#bayonetta_zombieman_spawn_bias", "persists": "#bayonetta_persistent_spawning" }
 
 // Sten Zombie Spawn Entries
 newSpawnTable => { "spawnName": "StenZombieSpawner", "tableName": "StenZombieSpawner" }
@@ -42,6 +43,7 @@ addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZ
 addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie_Blue", "weight": "2", "persists": "true" }
 addSpawnTableSingleEntry => { "tableName": "MeleeZombieSpawner", "name": "MeleeZombie_Pink", "weight": "1", "persists": "true" }
 
+addSpawnTableNestedEntry => { "tableName": "UndeadHomeboy", "name": "MeleeZombieSpawner", "weight": "#meleezomb_homeboy_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
 addSpawnTableNestedEntry => { "tableName": "ZombieManReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_zombieman_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
 addSpawnTableNestedEntry => { "tableName": "ShotgunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_jackboot_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
 addSpawnTableNestedEntry => { "tableName": "ChaingunGuyReplaces", "name": "MeleeZombieSpawner", "weight": "#meleezomb_chaingunner_spawn_bias", "persists": "#meleezomb_persistent_spawning" }
